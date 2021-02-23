@@ -1,0 +1,336 @@
+{
+ "actions": [],
+ "autoname": "format:{user} CONTRACT {##}",
+ "creation": "2021-02-13 04:23:53.985372",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "user",
+  "full_name",
+  "bd3",
+  "agreementdate",
+  "bd4",
+  "employee",
+  "bd5",
+  "bd6",
+  "employment_status",
+  "location_of_work",
+  "bd7",
+  "from",
+  "to",
+  "bd8",
+  "section_break_17",
+  "bd9",
+  "policy_number",
+  "bd11",
+  "reviewed_by",
+  "authorised_by",
+  "column_break_20",
+  "bd10",
+  "effective_date",
+  "bd12",
+  "review_date",
+  "authorization_date",
+  "section_break_29",
+  "bd13",
+  "signature_31",
+  "dt1",
+  "bd14",
+  "signature_34",
+  "dt2",
+  "bd15",
+  "section_break_38",
+  "bd16",
+  "section_break_40",
+  "bd17",
+  "manager",
+  "mfname",
+  "signature_44",
+  "bd18",
+  "emp1",
+  "signature_47"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1 style=\"text-align: center;\">CASUAL EMPLOYMENT AGREEMENT</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h4 style=\"text-align: center;\">HI FIVE COMMUNITY SERVICES PTY LTD</h4>\n<h4 style=\"text-align: center;\">ACN 27 623 455 283</h4>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">AND</p>\n<p style=\"text-align: center;\">&nbsp;</p>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<p>Disclaimer: Every effort is made to ensure that this Agreement is based on Social, Community, Home Care and<br>Disability Service Industry Award 2010. The writer and employer take no responsibility whatsoever for any inadvertent<br>representation or omission in so far as the compliance with or interpretation of the terms of the award. In this regard, it is<br>recommended that the employees seek independent legal advice or contact Fair Work Australia, should they wish to<br>rely on the contents of interpretation of any terms and conditions of this agreement. Should the employees continue on<br>the basis of the above mentioned disclaimer they indemnify the writer and the employer from any actions, law suits and<br>otherwise claims.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+  },
+  {
+   "fieldname": "agreementdate",
+   "fieldtype": "Date",
+   "label": "THIS AGREEMENT dated:"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<p>BETWEEN</p><p><br>Hi Five Community Services Pty Ltd ABN 27 623 455 283<br>(EMPLOYER)<br><br>AND</p>"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<h4>RECITALS</h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employer conducts the business known as Hi Five Community Services.</li>\n<li>The employer has agreed to utilise the services of the employee, on a casual<br>basis as required from time to time, and the employee has agreed to provide<br>those services to the employer in the business on the terms set out in this<br>agreement.</li>\n</ol>\n<h4>OPERATIVE PART</h4>\n<h4><span style=\"text-decoration: underline;\">1. Definitions and Interpretation</span></h4>\n<p><span style=\"font-weight: 400;\">This agreement is governed by the law of Victoria, and the parties submit to the non-exclusive jurisdiction of the courts of that state.</span></p>\n<p><span style=\"font-weight: 400;\">In the interpretation of this agreement:</span></p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">References to legislation or provisions of legislation include changes or re-enactments of the legislation and statutory instruments and regulations issued under the legislation.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Words denoting the singular include the plural and vice versa, words denoting individuals or persons include bodies corporate and vice versa, references to documents or agreements also mean those documents or agreements as changed, novated or replaced, and words denoting one gender include all genders.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Grammatical forms of defined words or phrases have corresponding meanings.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Parties must perform their obligations on the dates and times fixed by reference to the capital city of Victoria;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Reference to an amount of money is a reference to the amount in the lawful currency of the Commonwealth of Australia.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If the day on or by which anything is to be done is a Saturday, a Sunday or a public holiday in the place in which it is to be done, then it must be done on the next business day.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">References to a party are intended to bind their executors, administrators and permitted transferees.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Obligations under this agreement affecting more than one party bind them jointly and each of them severally.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Competing business means any business that is the same or substantially similar to the business of the employer.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Confidential information means all information, in whatever form, be it oral, in writing or electronic concerning the business of the employer or any related entity that is likely to damage the business of the employer or related entity if disclosed to a third party but does not include information that is in the public domain or was known to the third party;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Duties means the duties set out herein, any other duties that the employer may delegate from time to time, those otherwise implied at law or in equity and statutory duties. Examples of the employee&rsquo;s duty to provide faithful service and to act in good faith include:</span></li>\n<ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The employee must not use their position to derive secret profits or benefits during the term of the employment.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The employee must account to the employer for all moneys and property received in the course of their employment.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The employee must not solicit the employer&rsquo;s customers or clients or potential customers or clients while they are employed; and</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The employee must not divulge or abuse trade secrets or the intellectual property of the employer.</span></li>\n</ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Intellectual property means copyright, trademark, patent, design and any other intellectual property rights arising by law.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Performance objectives means those targets and goals developed by the employer having reference to the company&rsquo;s mission and annual business plan that further delineate the employee&rsquo;s duties that must be specific, measurable, attainable, realistic and timely and agreed upon by both parties. These goals can identify any changes the employer requires to the attitude, knowledge or behaviour of the employee and address the necessary personal development that may be required particularly if the business undergoes any major changes.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The terms and conditions herein replace any other terms and conditions of employment that may have applied prior to the date of this agreement; and</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Nothing in this agreement shall prevent the parties agreeing in writing to vary any or all of the provisions contained in this agreement; provided however, existing employees cannot be required to complete a probationary period. Additionally, the parties cannot agree to conditions of employment that are less than the minimum prescribed by any relevant law or award.</span></li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">2.&nbsp;Term</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Employment will be on a casual basis, as required on occasion by the employer, and each engagement will be a separate contract of employment which ceases at the end of that engagement.</li>\n<li>This agreement will determine the terms and conditions that apply to your employment for each engagement.</li>\n<li>As a casual employee there is no guarantee of ongoing or regular work.</li>\n<li>You have to provide 2 weeks of notice when leaving work.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">3. Award Coverage</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Award coverage and applicable legislation is set out in the attached Schedule 1.</li>\n<li>A Fair Work Information Statement which summarises the entitlements under the National Employment Standards and also other matters concerning the federal industrial relations system is included in Schedule 2.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">4. Title and Duties</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee's title and details are contained in Schedule 1.</li>\n<li>It shall be the duty of the employee to carry out all reasonable instructions and to undertake any work reasonably required by the employer.</li>\n<li>The employer may, after consultation with the employee, amend the employee's duties from time to time.</li>\n<li>The employee will:\n<ol style=\"list-style-type: lower-roman;\">\n<li>Faithfully serve the employer;</li>\n<li>During each engagement devote the whole of their time, attention and abilities in carrying out their duties;</li>\n<li>Obey all lawful requests, directions and restrictions of the employer;</li>\n<li>Not intentionally do anything that is or may be harmful to the employer or its business; and</li>\n<li>Comply with all applicable legal obligations.</li>\n</ol>\n</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">5.&nbsp;Workplace Appearance and Behavior</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee is required to behave in a professional, respectful and courteous manner during each engagement.</li>\n<li>For each engagement, the employee must present in neat and tidy clothing of a standard appropriate to their employment.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">6.&nbsp;Health and Safety</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee must report to work in such a condition that they are able to perform their duties properly and safely.</li>\n<li>The employee must report any injury sustained during an engagement or while travelling to or from work, as soon as practicable to their supervisor or manager.</li>\n<li>The employee is required to participate in the employer&rsquo;s safety programmes and be responsible for knowing and following the applicable health and safety rules.</li>\n<li>The employer may direct the employee in relation to wearing of personal protection equipment.</li>\n<li>All working areas are smoking free.</li>\n<li>Under no circumstances shall an employee report for work under the influence of alcohol or drugs.</li>\n<li>The employee must not bring any drugs into the employer's premises unless those drugs are prescribed by a medical practitioner with respect to a medical condition. The employee is required to inform the employer of any prescribed medicines being taken which may affect or impair the employee's ability to work safely.</li>\n<li>The employee must not bring alcohol into the employer's premises unless it is expressly approved in accordance with an authorised workplace function.</li>\n<li>Where the employer has reasonable cause to be concerned about the employee's capacity to safely discharge the inherent requirements of their job, the employee may be directed to undergo a medical examination by a medical specialist nominated by the employer in order to assess ongoing suitability for work and/or to enable an informed decision to be made about the employee's continued employment.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\"><strong>7.&nbsp;Policies and procedures</strong></span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee will comply with the employer&rsquo;s policies and procedures. Such policies and procedures take effect as a reasonable and lawful instruction but do not form a term of this agreement.</li>\n<li>Unlawful discrimination and sexual harassment is prohibited and constitutes misconduct.</li>\n<li>A breach of the employee&rsquo;s policies and procedures may result in disciplinary action, including termination of employment.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\"><strong>8. Hours of work</strong></span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The hours of work are as set out in Schedule 1 or as otherwise advised by way of a roster.</li>\n<li>The employee may be required to submit a timesheet with hours worked on a weekly basis.</li>\n<li>The entitlement to overtime will be as set out in the applicable award. Overtime must be authorised by the relevant supervisor prior to being worked.</li>\n<li>Punctuality is important in discharging the employee&rsquo;s duties to the employer. Accordingly, the employee is to be prepared and ready to commence work at the starting time of each engagement.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">9. Warranties</span></h4>\n<p>The employee warrants that:</p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>All representations, whether oral or in writing, made by the employee as to qualifications and experience in applying for this position are true and complete;</li>\n<li>There are no liabilities, encumbrances, debts, attachments or other matters that would interfere with the employee's ability to discharge any obligations under this agreement;</li>\n<li>The employee has disclosed to the employer any injuries and/or illnesses previously suffered that may affect an employee's ability to effectively carry out their functions and responsibilities within the employment; and</li>\n<li>This agreement may be terminated in the event that either the employee, or other persons or bodies, do not supply the information requested by the employer, or the information supplied is found to be knowingly incorrect, deliberately insufficient or misleading.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">10. Remuneration</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>All wages shall be paid fortnightly in arrears by direct credit to the employee's bank account.</li>\n<li>The employee&rsquo;s hourly rate includes a 25% casual loading or as per the relevant award. Casual loading is to be paid to compensate the employee for all entitlements normally payable for permanent employment, including annual leave, sick leave, penalties, allowances and loadings.</li>\n<li>The employee will be provided with a payslip in accordance with the applicable legislation.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">11. Superannuation</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employer will pay any required superannuation contributions based on ordinary time earnings on behalf of the employee as required by superannuation guarantee legislation, into the superannuation fund nominated by the employee.</li>\n<li>In the event of the employee failing to nominate a fund, the employer will allocate a complying fund, notify the employee, and make payments accordingly.</li>\n</ol>\n<p>&nbsp;</p>"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<h4 style=\"text-align: left;\"><span style=\"text-decoration: underline;\">12. Uniforms</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>If required, the employee will be supplied with the appropriate uniform as determined by the employer.</li>\n<li>The employee shall wear the complete uniform as supplied and shall maintain the uniform in a clean and presentable condition at all times.</li>\n<li>The employee will return all items of uniform as directed or in the event of termination of employment.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">13. Public Holidays</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee may be required to work on public holidays.</li>\n<li>Work performed on public holidays will be in accordance with the award and the National Employment Standards.</li>\n<li>Payment for work on public holidays will be as set out in Schedule 1.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">14. Long Service Leave</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee's entitlement to long service leave will be in accordance with the provisions of the relevant legislation.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">15. Carer's Leave</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee is entitled to two days of unpaid carer&rsquo;s leave per occasion, in accordance with the National Employment Standards.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">16. Parental Leave</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee's entitlement to parental leave will be in accordance with the National Employment Standards.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">17. Compassionate Leave</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee is entitled to two days of unpaid compassionate leave per occasion, in accordance with the National Employment Standards.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">18. Tools</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employees will utilize their own tools. In this case, they will be responsible for the use, condition and maintenance of these tools. The employees indemnify the employer for any causes or actions at law or equity, resulting due to improper use of these tools or practices employed in using these.</li>\n<li>All care shall be taken by the employee to keep the tools and equipment in good order.</li>\n<li>No tools or equipment belonging to the employer shall be removed from the premises without the employer's permission.</li>\n<li>Any tools and equipment provided to an employee remain the property of the employer and must be returned on the termination of employment.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">19. Breaks</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Breaks will be in accordance with the intervals stated in the award and applicable policies and procedures.</li>\n<li>The timing of breaks should reflect the employer&rsquo;s commitment to customer service and be taken at reasonable intervals during the daily work period.</li>\n<li>The employer retains the right to arrange breaks so as to minimise disruption to clients, other staff, or the employer&rsquo;s operations.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">20.Confidential Information</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>During the course of the employment or after termination of employment, the employee shall not for their own benefit, or for the benefit of a third party, use, make a record of or disclose to any person any confidential information relating to information, or trade secrets of the employer for any reason except so far as may be reasonably necessary to enable the employee to fulfil their obligations under this agreement.</li>\n<li>The employee hereby indemnifies the employer and any related entity against any loss or damage they may suffer as a result of the breach of confidentiality.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">21. Intellectual Property</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee acknowledges that the intellectual property in all works of the employee in the course of the fulfilment of the employee&rsquo;s obligations hereunder are the absolute property of the company and that the employee shall do all things and sign all documents that may be necessary to vest such intellectual property in the company.</li>\n<li>The employee irrevocably appoints the employer to be the employee&rsquo;s attorney to do all things and sign all documents that may be necessary to vest such intellectual property in the employer.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">22. Termination of Employment</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Employment may be terminated by the employer at any time by providing the employee with notice, to apply at the end of the employee&rsquo;s current engagement or one week whichever occurs first.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">23. Return of property</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>The employee, on termination of employment, must immediately return the employer's property that is within the employee's possession or control including property of the employer's clients or customers and which in any way relates to the business affairs of the employer or any of its subsidiary or associated companies, without retaining copies of the same.</li>\n</ol>\n<h4><span style=\"text-decoration: underline;\">24. Variation Clause</span></h4>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>This agreement may only be amended or varied by written agreement signed by both parties.</li>\n</ol>\n<p style=\"text-align: center;\"><strong>SCHEDULE 1 &ndash; Employment particulars</strong></p>\n<p>&nbsp;</p>\n<p><strong>Employee name address and private contact details</strong></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+  },
+  {
+   "fieldname": "employment_status",
+   "fieldtype": "Data",
+   "label": "Employment Status"
+  },
+  {
+   "fieldname": "location_of_work",
+   "fieldtype": "Data",
+   "label": "Location of Work"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<p>Hours of Work</p>"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Time",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Time",
+   "label": "To"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<p><strong>Position description</strong></p>\n<p><strong>Position title:</strong> Support Coordinator</p>\n<p><strong>Reports to: </strong>Operations Manager / Director</p>\n<p><strong>Position summary:</strong> Detailed PD on next page.</p>\n<p>&nbsp;</p>\n<p><strong>Award coverage (if relevant)</strong></p>\n<p>Social, Community, Home Care and Disability Services Industry Award 2010 and National Employment Standards in the Fair Work Act 2009.</p>\n<p><strong>Remuneration</strong></p>\n<p>As per discussed</p>"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<p>Policy Title:</p>"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<p><b>Support Coordinator</b></p>"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "label": "Effective Date"
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<p>Category:</p>"
+  },
+  {
+   "fieldname": "bd12",
+   "fieldtype": "HTML",
+   "label": "bd12",
+   "options": "<p>Operations</p>"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Link",
+   "label": "Reviewed By",
+   "options": "User"
+  },
+  {
+   "fieldname": "authorised_by",
+   "fieldtype": "Data",
+   "label": "Authorised By"
+  },
+  {
+   "fieldname": "review_date",
+   "fieldtype": "Date",
+   "label": "Review Date"
+  },
+  {
+   "fieldname": "authorization_date",
+   "fieldtype": "Date",
+   "label": "Authorization Date"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd13",
+   "fieldtype": "HTML",
+   "label": "bd13",
+   "options": "<p><strong>Position Objectives:&nbsp; </strong></p>\n<p>&nbsp;</p>\n<p>The aim of the support coordination team is to provide support coordination for National Disability Insurance</p>\n<p>Scheme (NDIS) participants, strengthen participant&rsquo;s ability to navigate the NDIS and coordinate their supports and to facilitate implementation of all supports identified in a participant&rsquo;s plan. This position works to a standard consistent with the guidelines set out by the National Disability Insurance Agency (NDIA).</p>\n<p>&nbsp;</p>\n<p>The role of the Support Coordinator is to support National Disability Insurance Scheme (NDIS) Participants to achieve their NDIS Plan goals, by coordinating:</p>\n<p>&nbsp;<u>Informal</u> supports e.g. connecting with family, friends and other community groups or networks.</p>\n<p><u>Mainstream</u> supports e.g. working with other sectors that have a responsibility to support NDIS participants</p>\n<p>e.g. Health (hospitals); education (school, TAFE); housing; and justice; and</p>\n<p><u>Funded</u> supports e.g. the funding for services outlined in a person&rsquo;s NDIS Plan, liaising with service providers who can deliver these supports.</p>\n<p>The role is performed in a competitive market environment where customer satisfaction with service quality and outcomes is essential for customer retention and attraction, and business sustainability.</p>\n<p>&nbsp;<strong>Relationships</strong></p>\n<p><strong>&nbsp;</strong><strong>Internal:</strong></p>\n<ul>\n<li>Support Coordinator colleagues</li>\n<li>Customer Service Hub</li>\n<li>Team Leader/Program Manager Support Coordination Senior Manager Support Coordination</li>\n<li>Service delivery managers and Managers of support services All Uniting Staff</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>External</strong></p>\n<ul>\n<li>NDIS participants / families / carers</li>\n<li>State Department of Health and Human Services (DHHS) National Disability Insurance Agency (NDIA)</li>\n<li>Local Disability and Community Service providers e.g. Health, Education, Justice, Housing</li>\n<li>Local Area Coordinators (LACs)</li>\n<li>Other Service providers and referral partners</li>\n</ul>\n<p><strong>Work Environment:</strong></p>\n<p>&nbsp;</p>\n<p>Hi Five services aim to enrich people&rsquo;s quality of life through a Person-Centred Active Support approach using every available daily opportunity to promote people choices.</p>\n<p>&nbsp;Hi Five was established to:</p>\n<ul>\n<li>lead efforts to enhance the community inclusion of people with disabilities, their families and carers., and support the implementation of National Disability Insurance Scheme;</li>\n<li>provide personalized and quality services to people from diverse cultural backgrounds and their families</li>\n<li>focus on translating evidence into information to support ongoing improvements in the lives of people with disabilities.</li>\n<li>provide a nurturing and friendly work environment for the carers which encourages development</li>\n</ul>\n<p>&nbsp;</p>\n<p>Hi Five Disability Services assist all disabled people regardless of their age. Our programs aim to provide high quality services to enhance people&rsquo;s lifestyle through a Person-Centred Active Support approach using every available daily opportunity to promote people&rsquo;s:</p>\n<ul>\n<li>Taking part in community activities.</li>\n<li>Connecting with other people.</li>\n<li>Choice in all aspects of decision-making that affects them.</li>\n<li>Self-respect and dignity</li>\n<li>Talents and be able to achieve something.</li>\n</ul>\n<p>&nbsp;</p>\n<p>This is based on the notion that all disabled people can:</p>\n<ul>\n<li>Make informed choices.</li>\n<li>Take part in different activities of their choice irrespective of their abilities.</li>\n<li>Make a difference in their lives and those of others.</li>\n<li>Make a positive contribution to society.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Specific Responsibilities</strong></p>\n<p>&nbsp;<strong>Service Delivery</strong></p>\n<ul>\n<li>Assists NDIS Participants to identify and plan strategies to achieve their,</li>\n<li>personal goals as specified in their NDIS plans, within a person-centered framework</li>\n<li>Works equitably with Participants with respect to each individual&rsquo;s right to dignity, privacy, independence and respect</li>\n<li>Support clients to implement their NDIS plan to maximize the value for money they receive from their supports</li>\n<li>Assist and coach participants on how to utilize the NDIS participant portal to make service bookings and changes, empowering participant choice and control</li>\n<li>Achieve targets as identified by the Team Leader Support Coordination, in line with the strategic business plan and guidelines as set out by the NDIS</li>\n<li>Develop trusting, positive and professional relationships with Participants and service providers</li>\n<li>Provide information to Participants and advocate when necessary to facilitate access to community services and facilities</li>\n<li>Support Participants in facilitating their independence by enabling empowerment and choice, and the promotion of personal resilience and social inclusion.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Community engagement &amp; education</strong></p>\n<ul>\n<li>Liaises with carers, families and significant others involved in providing care,</li>\n<li>including specialist generic agencies and other mainstream service providers</li>\n<li>Conducts community presentations to raise awareness of the NDIS, including people with a disability in mainstream support.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Teamwork and Development</strong></p>\n<ul>\n<li>Works collaboratively with other Support Coordinators within the team, and</li>\n<li>management</li>\n<li>Actively participates and engages in team meetings and initiatives Assists with problem solving and addressing any emergent issues</li>\n<li>Identifies any communication or workflow issues and makes suggestions for improvement</li>\n<li>Works towards goals and accepts guidance and direction from team leader</li>\n<li>and management.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Legislative and Policy</strong></p>\n<p><strong>Compliance Reporting, Documentation and Administration</strong></p>\n<ul>\n<li>Operates within relevant legislation, and NDIA policies and guidelines</li>\n<li>Liaises regularly with the Operations Manager</li>\n<li>Carries out administrative tasks, including entering accurate case notes in a timely manner and maintaining files and statistics as directed</li>\n<li>Completes regular progress reports within required timeframes</li>\n<li>Undertakes other duties and functions as directed, commensurate with current level of skills and classification.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Personal accountability</strong></p>\n<ul>\n<li>Compliance with Uniting&rsquo;s values, code of conduct, policies and procedures and relevant</li>\n<li>government legislation and standards where relevant. Ensure appropriate use of resources.</li>\n<li>Work collaboratively with employees, founding agency employees and external stakeholders in accordance with Uniting&rsquo;s values and professional standards of behavior.</li>\n<li>Actively participate in initiatives to maintain, build upon and promote a positive and collaborative workplace.</li>\n<li>Identify opportunities to integrate and work collaboratively across teams.</li>\n<li>Take reasonable care for your own health and safety, and health and safety consultation and communication.</li>\n<li>Promote a positive safety culture by contributing to health and safety consultation and communication.</li>\n<li>Promptly respond to and report health and safety hazards, incidents and near misses to Quality and Program Performance.</li>\n<li>Attend mandatory training sessions (i.e. equal employment opportunity, health and safety) and mandatory training specific to position.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Any other administrative tasks as required by the team. </strong></p>\n<p><strong>Key result areas</strong></p>\n<p>&nbsp;Ability to attract and retain NDIS Support Coordination participants</p>\n<ul>\n<li>Achievement of NDIS Participants&rsquo; goals Customer satisfaction measures</li>\n<li>Use of on-line systems to track and record performance data</li>\n<li>Other key measures developed by Uniting, the NDIA or other key stakeholders.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Interpersonal and Communication Skills</strong></p>\n<p>The Support Coordinator requires the following skills:</p>\n<ul>\n<li>Able to present themselves and their work in a way that enhances the public image of Hi Five</li>\n<li>Demonstrated excellent written, verbal and interpersonal skills.</li>\n<li>A high level of interpersonal and communication skills.</li>\n<li>Team and action orientated</li>\n<li>Focused on continuous improvement in Quality Assurance and Occupational Health and Safety.</li>\n<li>Demonstrated capacity to provide leadership in the development and implementation of strategies to successfully deal with contemporary issues.</li>\n<li>Excellent interpersonal skills including demonstrated experience and skills in liaison, negotiation and &nbsp;conflict resolution with staff at all levels.</li>\n<li>Customer focused</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Network Relationships</strong></p>\n<ul>\n<li>To develop service planning partnerships with external agencies which facilitate the development of opportunities for service users.</li>\n<li>To establish relationships with both external agencies which facilitate opportunities for Hi Five service users.</li>\n<li>To participate in networks and other frameworks in accordance with Hi Five&rsquo;s policies and procedures</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Outcome and Result Focused</strong></p>\n<p>&nbsp;Excellent organisational and planning skills in managing a personal workload in a busy environment</p>\n<ul>\n<li>Skills to manage and work with conflicting demands</li>\n<li>Demonstrated high level of organisational skills including the capacity to set priorities and work to deadlines.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Qualifications / Experience / Knowledge</strong></p>\n<p>&nbsp;Certificate IV in Community Services (Disability) or equivalent.</p>\n<ul>\n<li>A Degree in Psychology, Disability Studies, Education or equivalent is highly desirable.</li>\n<li>Ability to use a range of computer software applications relevant to this role</li>\n<li>Proven ability to work under broad direction.</li>\n<li>Well-developed analytical, research and conceptual skills.</li>\n<li>Fit to operate screen-based equipment.</li>\n<li>Current Victorian Driver&rsquo;s license.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Knowledge &amp; experience:</strong></p>\n<p>&nbsp;Wide range of experience in developmental programming and service co-ordination.</p>\n<ul>\n<li>Experience in the development of Individual Program Plans</li>\n<li>A clear understanding of Goal and Objective setting in relation to identified client needs.</li>\n<li>Experience in identifying, developing and evaluating communication matters.</li>\n<li>Experience in dealing and communicating with people with an intellectual disability.</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Skills:</strong></p>\n<ul>\n<li>Knowledge of general Policies, Practices and Procedures, particularly as they relate to communication.</li>\n<li>Demonstrated knowledge of the Social, Community, Home Care and Disability Services Award 2010 (SCHCADS)</li>\n<li>Understanding of the Hi Five Policies &amp; Mandatory Procedures Manual.</li>\n<li>Good problem-solving skills.</li>\n<li>Proficient in the use of a range of computer programs i.e.: Microsoft Word &amp; Excel.</li>\n<li>Sound interpersonal skills with the ability to communicate with management, employees, and external &nbsp;clients/customers.</li>\n<li>Sound supervisory and organisational skills</li>\n<li>Well-developed report and general writing skills</li>\n<li>Knowledge of O H and Safety Act, Workcover Act, Equal opportunity Act,</li>\n<li>Good understanding of the operations and service agreements of Hi Five.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Attributes:</strong></p>\n<ul>\n<li>Ability to understand the role</li>\n<li>Required to exercise judgment and discretion in decision-making.</li>\n<li>Team oriented and highly motivated</li>\n<li>Commitment to promoting a culture that is people oriented, ethical &amp; professional</li>\n<li>Understands the importance of details being right</li>\n<li>Supports and participates in continuous improvement in a rapidly changing environment</li>\n<li>Able to deal with matters of a confidential and sensitive nature</li>\n<li>Excellent interpersonal skills</li>\n<li>Committed to the team concept.</li>\n<li>Able to work under pressure and meet deadlines</li>\n<li>Able to address and resolve tasks within tight timeframes</li>\n<li>Excellent communication skills</li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Stakeholder Management: </strong></p>\n<ul>\n<li>Link people with other areas (as appropriate)</li>\n<li>Create environments and processes that empower people with disabilities and their families to have the authority to craft, govern, oversee, steer and guide their supports.</li>\n<li>Takes concrete steps to add value for the stakeholder</li>\n<li>Constructively deals with stakeholder issues.</li>\n<li>Monitor client and stakeholder satisfaction.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Hi Five Employment Safety Screening Requirements</strong></p>\n<p>Hi Five is committed to selecting people able to provide quality services and a safe working environment to our clients. Accordingly, we have rigorous employment safety screening requirements for all new employees.</p>\n<p>All competitive applicants will be required to undergo additional employment safety screening. This involves establishing identity, consenting to a National Police Records check, and verification of claims through referee comments.</p>\n<ul>\n<li>All of our employees are required to comply with the Staff Code of Conduct Hi Five.</li>\n<li>Hi Five is a smoke free work environment.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><u>Acknowledgement </u></strong></p>\n<p>I have read and acknowledge the requirements of this position as described in this document.</p>\n<p><strong>SIGNED: </strong></p>"
+  },
+  {
+   "fieldname": "signature_31",
+   "fieldtype": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt1",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd14",
+   "fieldtype": "HTML",
+   "label": "bd14",
+   "options": "<p><strong>Support Coordinator:</strong></p>"
+  },
+  {
+   "fieldname": "signature_34",
+   "fieldtype": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt2",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd15",
+   "fieldtype": "HTML",
+   "label": "bd15",
+   "options": "<p><strong>Operations Manager</strong></p>"
+  },
+  {
+   "fieldname": "bd16",
+   "fieldtype": "HTML",
+   "label": "bd16",
+   "options": "<h4>1. Related Documents</h4>\n<p>Code of conduct</p>\n<p>Hi Five, operational policies</p>\n<p><strong>SCHEDULE 2 &ndash; Fair Work Information Statement</strong></p>\n<p>If you&rsquo;re a new employee, your employer needs to give you a copy of the Fair Work Information Statement before, or as soon as possible after, you start a job. For information tailored to you, register for an online account at <strong>www.fairwork.gov.au/register</strong>, or call the <strong>Fair Work Infoline </strong>on <strong>13 13 94</strong>.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>\u25e2 <strong>Minimum rights and entitlements</strong></p>\n<p>Workers in Australia are entitled to basic rights and protections at work. If you&rsquo;re in the national workplace relations system, these protections include minimum pay rates and a set of entitlements called the National Employment Standards. You&rsquo;re also likely to be covered by a modern award or enterprise agreement, which may provide you with more entitlements.</p>\n<p>You might also sign a contract or agreement with your employer. Contracts can set out additional conditions of employment but can&rsquo;t provide less than your minimum entitlements under the National Employment Standards or an applicable award or enterprise agreement.</p>\n<p>\u25e2 <strong>Minimum pay rates</strong></p>\n<p>Your minimum pay rate will usually be set in an award or an enterprise agreement. If there&rsquo;s no modern award or enterprise agreement covering your work, you&rsquo;re still entitled to at least the national minimum wage which, from 1 July 2018, is:</p>\n<ul>\n<li>$18.93 per hour for full-time and part-time adult employees</li>\n<li>$23.66 for casual adult employees.</li>\n</ul>\n<p>The national minimum wage is reviewed annually. You can find your minimum pay rates by using our Pay Calculator at www.fairwork.gov.au/PACT.</p>\n<p>\u25e2 <strong>Modern awards </strong></p>\n<p>There are 122 industry or occupation awards that cover most people working in Australia. Awards may contain entitlements like minimum wages (pay), penalty rates, types of employment, flexible working arrangements, hours of work, meal and rest breaks, classifications, allowances, annual leave loading, and redundancy. To find out if you&rsquo;re covered by an award, use Find my award at www.fairwork.gov.au/awards.</p>\n<p>\u25e2 <strong>Enterprise agreements</strong></p>\n<p>Enterprise agreements set employment conditions that can apply to a business and their workers or a group of businesses and their workers. Enterprise agreements are negotiated (&lsquo;bargained&rsquo;) between the employer, their employees and any employee representatives (such as a union or other bargaining representative).</p>\n<p>Bargaining for an agreement has to follow set rules. Once approved by the Fair Work Commission, an enterprise agreement is enforceable and provides the terms and conditions of employment that apply at your workplace.</p>\n<p>For information about making, varying, or terminating enterprise agreements visit the Fair Work Commission website at <a href=\"http://www.fwc.gov.au\">www.fwc.gov.au</a>.</p>\n<p><strong>\u25e2 </strong><strong>The National Employment Standards (NES)</strong></p>\n<p><strong>There are 10 minimum workplace entitlements in the NES that apply to all employees: </strong></p>\n<ol>\n<li>Maximum weekly hours of 38 if you&rsquo;re a full-time employee, plus &lsquo;reasonable&rsquo; additional hours.</li>\n<li>The right to request flexible working arrangements.</li>\n<li>Parental and adoption leave of 12 months (unpaid), with the right to request an additional 12 months.</li>\n<li>Four weeks paid annual leave each year (pro rata if you&rsquo;re a part-time employee).</li>\n<li>A total of 10 days paid sick and carer&rsquo;s leave each year (pro rata if you&rsquo;re a part-time employee), two days paid compassionate leave for each permissible occasion, two days unpaid carer&rsquo;s leave for each permissible occasion, and five days unpaid family and domestic violence leave (in a 12-month period).</li>\n<li>Community service leave for jury service or activities dealing with certain emergencies or natural disasters. This leave is unpaid except for jury service.</li>\n<li>Long service leave.</li>\n<li>The entitlement for you to be absent on public holidays and for you to be paid for ordinary hours on those days.</li>\n<li>Notice of termination and redundancy pay.</li>\n<li>The right to receive this Fair Work Information Statement if you&rsquo;re a new employee.</li>\n</ol>\n<p>Casual employees are entitled to some of the entitlements in the NES, but not all. For example, as a casual employee you&rsquo;re entitled to two days of unpaid carer&rsquo;s leave for each permissible occasion. You&rsquo;re also entitled to parental and adoption leave of 12 months (unpaid) &ndash; with a right to request an additional 12 months if you&rsquo;ve worked on a regular and systematic basis for at least 12 months and have a reasonable expectation of continuing employment. In addition, you&rsquo;re entitled to five days unpaid family and domestic violence leave each 12 month period.</p>\n<p>To read more about the NES entitlements that apply to you, go to the National Employment Standards page at www.fairwork.gov.au/NES.</p>\n<p>\u25e2 <strong>If the business you work for changes owners</strong></p>\n<p>If the business you work for changes owners or is sold &ndash; and you&rsquo;re employed by the new employer within three months of your employment with the old employer ending &ndash; some of your entitlements may carry over to the new employer. You can check what you&rsquo;re entitled to at <a href=\"http://www.fairwork.gov.au/transfer-of-business\">www.fairwork.gov.au/transfer-of-business</a>.</p>\n<p>\u25e2 <strong>Workplace flexibility </strong></p>\n<p>You have the right to request flexible working arrangements under the NES if:</p>\n<ul>\n<li>you&rsquo;re a parent of, or have responsibility for caring for, a child of school age or younger</li>\n<li>you provide personal care, support and assistance to another person who needs it because of a disability, medical condition, mental illness or frailty and age</li>\n<li>you have a disability</li>\n<li>you are 55 or older</li>\n<li>you&rsquo;re experiencing family violence</li>\n<li>you&rsquo;re providing care or support for an immediate family member, or someone you live with, who is experiencing family violence, or</li>\n<li>you&rsquo;re returning to work after a period of parental or adoption leave and wish to work part-time to care for your child, or the child who you have responsibility caring for.</li>\n</ul>\n<p>Your employer can only refuse a request on reasonable business grounds. If they do, they must respond to your request in writing and include details for why they refused your request.</p>\n<p>\u25e2 <strong>Individual flexibility arrangements </strong></p>\n<p>You and your employer can negotiate to change how certain terms in an award or enterprise agreement apply to your situation. An individual flexibility arrangement cannot be a condition of employment &ndash; it must be a genuine choice. To find out more see Flexibility in the workplace at www.fairwork.gov.au/flexibility.</p>\n<p>\u25e2 <strong>Protection from discrimination and other adverse action </strong></p>\n<p>You&rsquo;re protected from an employer taking &lsquo;adverse action&rsquo; against you for certain reasons. These protections apply to casual, full-time and part-time employees.</p>\n<p>Adverse action can include dismissing you, refusing to employ you, negatively changing your position, or treating you differently for discriminatory reasons. For example, you&rsquo;re protected from adverse action if you make a complaint to an organisation like the Fair Work Ombudsman, or if you take personal leave or request flexible work arrangements, or exercise your right to freedom of association (including becoming or not becoming a member of a union).</p>\n<p>You also have the right to be protected from unlawful discrimination because of your race, colour, gender or age; and protection from undue influence or pressure from your employer about entering into an agreement in relation to your employment entitlements.</p>\n<p>If you have experienced adverse action, discrimination or undue pressure by your employer you can seek assistance from the Fair Work Ombudsman or the Fair Work Commission. If you have been dismissed, there might be strict timeframes that apply, so make sure you lodge an application with the Fair Work Commission <em>within 21 days of the date of your dismissal</em>. See the Fair Work Commission website at www.fwc.gov.au for more information.</p>\n<p><strong>\u25e2 </strong><strong>Ending employment </strong></p>\n<p>Your employment might end for a number of reasons &ndash; if you resign, your position is made redundant, or you are dismissed. To find out more see Ending employment at www.fairwork.gov.au/ending-employment.</p>\n<p>When your employment ends, you should get any outstanding employment entitlements, including outstanding wages and unused annual and long service leave.</p>\n<p>If you think you&rsquo;ve been unfairly dismissed, you might be able to lodge an application with the Fair Work Commission <em>within 21 days of the date of your dismissal. </em>There are rules about applying, including minimum employment periods, strict timeframes for applying and special rules for small business. Go to the Fair Work Commission website at www.fwc.gov.au for more information.</p>\n<p><strong>\u25e2 </strong><strong>Right of entry </strong></p>\n<p>A permit holder, often a union official, may enter the workplace in order to:</p>\n<ul>\n<li>talk to employees whose industrial interests the permit holder&rsquo;s organisation is entitled to represent</li>\n<li>look into a suspected breach of workplace laws</li>\n<li>look into a suspected breach of health and safety laws, in which case they must also comply with right of entry requirements of the work health and safety laws.</li>\n</ul>\n<p>A permit holder must comply with certain requirements such as notice to the employer and can inspect or copy certain documents. Strict privacy restrictions apply to the permit holder, their organisation and your employer.</p>\n<p><strong>\u25e2 </strong><strong>The Fair Work Ombudsman </strong></p>\n<p>The Fair Work Ombudsman is an independent statutory agency that promotes harmonious, productive and cooperative workplace relations and ensures compliance with Australian workplace laws. The Fair Work Ombudsman provides reliable and timely information about Australia&rsquo;s workplace relations system as well as help resolving workplace issues.</p>\n<p>For more information about the Fair Work Ombudsman visit www.fairwork.gov.au or call 13 13 94.</p>\n<p><strong>\u25e2 </strong><strong>The Fair Work Commission </strong></p>\n<p>The Fair Work Commission is Australia&rsquo;s national workplace relations tribunal responsible for maintaining a safety net of minimum wages and employment conditions, as well as a range of other workplace functions, including agreement-making, workplace bullying and unfair dismissal. For more information about the Fair Work Commission see www.fwc.gov.au or call 1300 799 675. <br> The Fair Work Information Statement is prepared and published by the Fair Work Ombudsman in accordance with section 124 of <em>the Fair Work Act 2009</em>.</p>\n<p><strong>Execution page</strong></p>\n<p><strong><strong>SIGNED AS AN AGREEMENT</strong></strong></p>"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd17",
+   "fieldtype": "HTML",
+   "label": "bd17",
+   "options": "<p>EXECUTED BY HI FIVE COMMUNITY SERVICES PTY LTD ABN 27 623 455 283</p>"
+  },
+  {
+   "fieldname": "manager",
+   "fieldtype": "Link",
+   "label": "Manager",
+   "options": "User"
+  },
+  {
+   "fetch_from": "manager.full_name",
+   "fieldname": "mfname",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature_44",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "bd18",
+   "fieldtype": "HTML",
+   "label": "bd18",
+   "options": "<p>SIGNED BY</p>"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "emp1",
+   "fieldtype": "Data",
+   "label": "Employee",
+   "unique": 1
+  },
+  {
+   "fieldname": "signature_47",
+   "fieldtype": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-17 12:47:34.097402",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Casual Employment Agreement SW",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
